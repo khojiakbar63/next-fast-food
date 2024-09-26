@@ -23,7 +23,7 @@ const Mobile: React.FC = () => {
                 <Image className="!hover:!left-[560px] !duration-200 !max-h-[482px] !relative !-top-[100px] !left-[450px] !z-10" src={Pro} alt="s" />
               </div>
 
-            <h1 className="!ml-[400px] !max-w-[803px] !text-[55px] !leading-[77px] !font-bold !text-[#fff]">
+            <h1 className="!ml-[500px] !max-w-[803px] !text-[45px] !leading-[77px] !font-bold !text-[#fff]">
               Now With Your Favotite Mobile Applivation In Your Pocket
             </h1>
             <Image
