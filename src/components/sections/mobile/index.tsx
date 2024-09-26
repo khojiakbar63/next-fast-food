@@ -18,9 +18,9 @@ const Mobile: React.FC = () => {
               alt="s"
             />
 
-              <div className="!absolute !left-0 !group">
+              <div className="!absolute !left-0 ">
                 <Image className="!h-[694px] !absolute !-top-[240px] !left-[300px] !z-20" src={ProMax} alt="s" />
-                <Image className="!group-hover:!left-[560px] !duration-200 !max-h-[482px] !relative !-top-[100px] !left-[450px] !z-10" src={Pro} alt="s" />
+                <Image className="!hover:!left-[560px] !duration-200 !max-h-[482px] !relative !-top-[100px] !left-[450px] !z-10" src={Pro} alt="s" />
               </div>
 
             <h1 className="!ml-[400px] !max-w-[803px] !text-[55px] !leading-[77px] !font-bold !text-[#fff]">
