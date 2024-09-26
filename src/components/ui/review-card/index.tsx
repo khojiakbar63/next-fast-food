@@ -36,7 +36,7 @@ export default function ReviewCard() {
             <div className="!flex !items-center !gap-[22px]">
               <Image className="!w-[90px] !h-[90px]" src={Customer} alt="s" />
 
-              <div className="!-mt-[16px]">!
+              <div className="!-mt-[16px]">
                 <h3 className="!font-[700] !text-[22px] !leading-[32px] !text-[#90E051]">
                   Abdur Rahman
                 </h3>

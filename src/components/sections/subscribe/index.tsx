@@ -13,9 +13,9 @@ const Subscribe = () => {
     const [placeholder, setPlaceholder] = useState("Enter your name");
   return (
     <div className="!mx-auto !max-w-screen-2xl !relative !mt-[200px]  !md:px-8   ">
-      <Card className="!card !absolute !z-50 !left-[150px] !-top-[160px] !min-w-[1320px] !flex  !items-center !rounded-[20px] !bg-white !pt-[80px] !lg:flex-row !lg:justify-between !p-[80px] !shadow-lg">
+      <Card className="!card !absolute !z-50 !left-[150px] !-top-[160px] !min-w-[1320px] !flex !justify-between  !items-center !rounded-[20px] !bg-white !pt-[80px] !lg:flex-row !lg:justify-between !p-[80px] !shadow-lg">
         <div className="!mb-4 !sm:mb-8 !lg:mb-0">
-          <h2 className=" !text-center !text-[32px] !leading-[40px] !font-bold !text-[#90E051] !sm:text-2xl !lg:text-left !lg:text-3xl">
+          <h2 className=" !text-start !text-[32px] !leading-[40px] !font-bold !text-[#90E051] !sm:text-2xl !lg:text-left !lg:text-3xl">
             Subscribe <br /> To Our Newsletter
           </h2>
         </div>
@@ -31,7 +31,7 @@ const Subscribe = () => {
 
             <Button className="!inline-block !bg-[#90E051] !rounded-none  !px-[48px] !py-[16px] !border !border-[#90E051] !text-center !text-sm !font-semibold !text-white !outline-none !ring-indigo-300 !transition !duration-100 !focus-visible:ring !hover:bg-[#8fe051ce] !active:bg-[#8fe051] !md:text-base">
               Subscrib now
-            </Button>!
+            </Button>
           </form>
         </div>
 
