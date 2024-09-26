@@ -4,6 +4,9 @@ import Image from "next/image";
 import { Container } from "@mui/material";
 import MenuBurger from "@/assets/images/menu-burger.svg";
 import { CardList } from "@/components";
+import Box from "@mui/material/Box";
+import TextField from "@mui/material/TextField";
+import SearchIcon from "@/assets/icons/search-icon-.svg";
 import "./style.css";
 
 const Menu:React.FC = () => {
@@ -16,6 +19,7 @@ const Menu:React.FC = () => {
       <Container className="relative">
         <div className="rounded-[69px] flex gap-6 flex-wrap max-w-[596.24px] bg-[#90E051] px-[46px] pt-[60px] pb-[2px]">
           <input type="text" placeholder="Search" className={`${show} border-bottom w-[253px] rounded-[69px] bg-[#ffffffd8] text-[#6D6C6C] text-[16px] leading-[19px] font-[400] px-[30px] py-[10px] outline-none`}/>
+          
           <CardList className={cards}/>
           <button onClick={()=>{
             setCards(cards === '' ? 'cards' : '')
