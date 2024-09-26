@@ -41,7 +41,7 @@ export default function HoverPopover({children, content} : {children: React.Reac
         }}
         onClose={handlePopoverClose}
         disableRestoreFocus
-        className='-left-[100px] -top-[200px] min-w-[546px] min-h-[268px]'
+        className='!-left-[100px] !-top-[200px] !min-w-[546px] !min-h-[268px]'
       >
         <Typography sx={{ p: 1 }}>{content}</Typography>
       </Popover>
