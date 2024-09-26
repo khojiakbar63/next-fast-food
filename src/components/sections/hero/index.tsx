@@ -21,7 +21,7 @@ const Hero = () => {
               <Button className="!bg-[#90E051] !px-[72px] !py-[21px] !rounded-[20px] !text-white !font-[500] !text-[29.4px] !leading-[48.54px]">
                 See All
               </Button>
-              <Button className="!px-[72px] !py-[21px] !rounded-[20px] !text-[#90E051] !leading-[48.54px]">
+              <Button className="!px-[72px] !py-[21px] !rounded-[20px] !text-[#90E051] !leading-[48.54px] !font-[500] !text-[29.4px]">
                 Menu
               </Button>
             </div>

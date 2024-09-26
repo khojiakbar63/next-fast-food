@@ -11,7 +11,7 @@ import Image from "next/image";
 
 export default function ReviewCard() {
   return (
-    <Card className="!shadow-no!ne !bg-white" sx={{ minWidth: 675 }}>
+    <Card className="!shadow-none !bg-white" sx={{ minWidth: 675 }}>
       <CardActionArea>
         <CardContent>
           <Typography
