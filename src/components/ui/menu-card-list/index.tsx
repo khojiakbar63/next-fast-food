@@ -54,7 +54,7 @@ export default function MenuCardList({ className }: { className?: string }) {
           </Box>
         </Box>
         <div className=" grid grid-cols-6 ">
-          {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((item, index) => (
+          {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((index) => (
             <Card className="mb-[46px] max-w-[232px]" key={index} />
           ))}
         </div>
