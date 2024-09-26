@@ -1,0 +1,13 @@
+.flip-card {
+    transform-style: preserve-3d;
+    transform: perspective(1000px) rotateY(0);
+  }
+  
+  .group-hover .flip-card-hover {
+    transform: perspective(1000px) rotateY(180deg);
+  }
+  
+  .flip-card-hover {
+    backface-visibility: hidden;
+  }
+  
