@@ -4,9 +4,6 @@ import Image from "next/image";
 import { Container } from "@mui/material";
 import MenuBurger from "@/assets/images/menu-burger.svg";
 import { CardList } from "@/components";
-import Box from "@mui/material/Box";
-import TextField from "@mui/material/TextField";
-import SearchIcon from "@/assets/icons/search-icon-.svg";
 import "./style.css";
 
 const Menu:React.FC = () => {
