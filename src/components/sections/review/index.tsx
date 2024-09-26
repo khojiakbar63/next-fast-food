@@ -8,10 +8,10 @@ import { HoverPopover } from "@/components";
 
 const Review: React.FC = () => {
   return (
-    <div className="bg-white pt-[108px] pb-[172px]">
-      <Container className="max-w-[1584px]">
-        <div className="flex items-center gap-[186px]">
-          <div className="max-w-[575px]">
+    <div className="!bg-white !pt-[108px] !pb-[172px]">
+      <Container className="!max-w-[1584px]">
+        <div className="!flex !items-center !gap-[186px]">
+          <div className="!max-w-[575px]">
             <ReviewCard />
           </div>
           <div>

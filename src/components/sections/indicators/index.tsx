@@ -9,8 +9,8 @@ import './style.css'
 
 const Indicators = () => {
   return (
-    <div className="bg-white py-[40px]">
-      <Container className="max-w-[878.35px]">
+    <div className="!bg-white !py-[40px]">
+      <Container className="!max-w-[878.35px]">
         <div className="flex justify-between ">
           <div className="group hover:cursor-pointer flex flex-col items-center">
             <Image className="group-hover:scale-105  duration-200  w-[79.71px] h-[79.92px]" src={Chefs} alt="Chefs" />

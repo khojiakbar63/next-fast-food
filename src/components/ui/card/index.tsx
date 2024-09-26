@@ -34,7 +34,7 @@ const Card = ({className}: {className?: string}) => {
               </span>
               <IconButton
                 aria-label="fingerprint"
-                className="p-[9.8px] bg-[#90E051] hover:bg-[#98e451a1] active:bg-[#8aeb40] shadow-xl"
+                className="!p-[9.8px] !bg-[#90E051] !hover:bg-[#98e451a1] !active:bg-[#8aeb40] !shadow-xl"
               >
                 <Image src={Plus} alt="Plus" />
               </IconButton>
