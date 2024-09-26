@@ -13,18 +13,18 @@ import "./style.css";
 const Header: React.FC = () => {
   const pathname = usePathname();
   return (
-    <header className="h-[160px]">
-      <Container className="max-w-[1800px]">
-        <div className="flex h-[160px] items-center justify-between">
+    <header className="!h-[160px]">
+      <Container className="!max-w-[1700px]">
+        <div className="!flex !h-[160px] !items-center !justify-between">
         
          <Link href='#'>
                   <h1>BurgerJon</h1>
                 </Link>
           <nav>
-            <ul className="flex gap-[56px] text-[#000]">
+            <ul className="!flex !gap-[56px] !text-[#000]">
               <li>
                 <Link
-                  className={`text-[25.57px] font-[500] leading-[42.22px] ${
+                  className={`!text-[25.57px] !font-[500] !leading-[42.22px] ${
                     pathname === "/" ? "active" : ""
                   }`}
                   href="/"
@@ -34,7 +34,7 @@ const Header: React.FC = () => {
               </li>
               <li>
                 <Link
-                  className={`text-[25.57px] font-[500] leading-[42.22px] ${
+                  className={`!text-[25.57px] !font-[500] !leading-[42.22px] ${
                     pathname === "/menu" ? "active" : ""
                   }`}
                   href="/menu"
@@ -44,7 +44,7 @@ const Header: React.FC = () => {
               </li>
               <li>
                 <Link
-                  className={`text-[25.57px] font-[500] leading-[42.22px] ${
+                  className={`!text-[25.57px] !font-[500] !leading-[42.22px] ${
                     pathname === "/about" ? "active" : ""
                   }`}
                   href="/about"
@@ -54,7 +54,7 @@ const Header: React.FC = () => {
               </li>
               <li>
                 <Link
-                  className={`text-[25.57px] font-[500] leading-[42.22px] ${
+                  className={`!text-[25.57px] !font-[500] !leading-[42.22px] ${
                     pathname === "/shop" ? "active" : ""
                   }`}
                   href="/shop"
@@ -64,7 +64,7 @@ const Header: React.FC = () => {
               </li>
             </ul>
           </nav>
-          <div className="flex items-center gap-[18.62px]">
+          <div className="!flex !items-center !gap-[18.62px]">
             <IconButton aria-label="search">
               <Image src={SearchIcon} alt="Picture of the Search icon" />
             </IconButton>
