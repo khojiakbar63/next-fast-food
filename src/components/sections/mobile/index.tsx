@@ -20,14 +20,14 @@ const Mobile: React.FC = () => {
 
               <div className="!absolute !left-0 ">
                 <Image className="!h-[694px] !absolute !-top-[240px] !left-[300px] !z-20" src={ProMax} alt="s" />
-                <Image className="!hover:!left-[560px] !duration-200 !max-h-[482px] !relative !-top-[100px] !left-[450px] !z-10" src={Pro} alt="s" />
+                <Image className="hover:!left-[560px] !duration-200 !max-h-[482px] !relative !-top-[100px] !left-[450px] !z-10" src={Pro} alt="s" />
               </div>
 
-            <h1 className="!ml-[500px] !max-w-[803px] !text-[45px] !leading-[77px] !font-bold !text-[#fff]">
+            <h1 className="!ml-[500px] !max-w-[603px] !text-[45px] !leading-[57px] !font-bold !text-[#fff]">
               Now With Your Favotite Mobile Applivation In Your Pocket
             </h1>
             <Image
-              className="!absolute !right-0 !top-[100px] !hover:animate-bounce !duration-200"
+              className="!absolute !right-0 !top-[100px] hover:!animate-bounce !duration-200"
               src={BurgerRight}
               alt="s"
             />
